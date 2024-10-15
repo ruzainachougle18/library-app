@@ -1,0 +1,111 @@
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top:3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(120deg, #7E60BF 0%, #FFE1FF 100%);
+    //*background: linear-gradient(to right, #1D267D, #917FB3);*/
+
+  }
+
+  #book-form {
+    display: none;
+    flex-direction: column;
+    margin-left: 15%;
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+  }
+
+  .form-group label {
+    margin-right: 10px; 
+    width: 100px; 
+  }
+
+  #book-form input, #book-form label {
+    margin-bottom: 10px;
+  }
+
+  #new-book-btn{
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  button#new-book-btn{
+    max-width: 150px;
+    flex: 1;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+    background-color: #433878;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    color: white;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    width: 100%; 
+  }
+
+  button[type="submit"] {
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #704264;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    max-width: 150px;
+    flex: 1;
+  }
+
+  input#title{
+    margin-left: 7%;
+    border-radius: 5px;
+    border: none;
+  }
+
+  input#author {
+    margin-left: 2%;
+    border-radius: 5px;
+    border: none;
+  }
+
+  input#pages{
+    margin-left: 4.5%;
+    border-radius: 5px;
+    border: none;
+  }
+
+  input[type="checkbox"] {
+    margin-left: 6%;
+    margin-top: 10px; /* Move the checkbox down */
+    border-radius: 5px;
+    border: none;
+    width: 20px; /* Increase width */
+    height: 20px; /* Increase height */
+    cursor: pointer; /* Optional: change cursor to pointer */
+}
+
+label {
+    font-size: 18px;
+}
