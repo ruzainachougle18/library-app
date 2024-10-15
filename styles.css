@@ -10,10 +10,8 @@
     padding-left: 3%;
     padding-right: 3%;
     border-radius: 8px;
-    border: none;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
     background: linear-gradient(120deg, #7E60BF 0%, #FFE1FF 100%);
-    //*background: linear-gradient(to right, #1D267D, #917FB3);*/
-
   }
 
   #book-form {
