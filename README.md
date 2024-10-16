@@ -20,6 +20,6 @@ cd library-app
 3. Open index.html in your browser to run the app locally.
 
 ## Technologies used
-- HTML5 for structure and content.
+- HTML5: for structure and content.
 - CSS3: Styling and layout.
 - JavaScript (ES6+): Core logic for managing books and interactions.
